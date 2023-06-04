@@ -1,0 +1,11 @@
+name: "Automatización del Proceso de Estimación"
+output_dir: "."
+navbar:
+  title: "Automatización del Proceso de Estimación"
+left:
+  - text: "Home"
+    href: index.html
+output:
+  html_document:
+    theme: yeti
+    css: index_custom.css
