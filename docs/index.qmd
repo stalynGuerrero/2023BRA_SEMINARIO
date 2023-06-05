@@ -1,6 +1,7 @@
 ---
-title: "Automatización del Proceso de Estimación"
-author: "Stalyn Guerrero^[Consultor - Comisión Económica para América Latina y el Caribe (CEPAL), guerrerostalyn@gmail.com]"
+title: "Automatización del sistema de producción estaadísticas ODS"
+author: "Stalyn Guerrero"
+institute: "Comisión Económica para América Latina y el Caribe (CEPAL)"
 date: "`r Sys.Date()`"
 format: revealjs
 ---
@@ -24,7 +25,7 @@ library(ggdag) # drawing DAG
 \pause
 
 <center>
-![ ](repetitivos2.jpg){ width=60% }
+![ ](repetitivos2.jpg){ width=40% }
 </center>
 
 <style>
@@ -37,9 +38,9 @@ library(ggdag) # drawing DAG
 Bueno, permíteme contarles cómo me liberé de esas tareas tediosas. La automatización de procesos nos permite realizar actividades de forma automática, reduciendo al mínimo nuestra intervención. 
 </div>
 
-## Resolver.  {-}
+## Nuestro primer proceso mecánico  {-}
 
-Suponga la siguiente ecuación: $3x + 2 = 8$. y quieres despejar la incógnita $x$ para encontrar su valor.
+Suponga la siguiente ecuación: $3x + 2 = 8$ y quieres despejar la incógnita $x$ para encontrar su valor.
 
 
 1. Paso 1: **Si una cantidad está sumando, pasa restando**.
@@ -60,7 +61,7 @@ Imaginen despejar realizar este proceso una y otra vez, ¡pero ahora con la ayud
 </center>
 
 
-## Acciones que realizas de forma mecánica {-}
+## Otras acciones que realizas de forma mecánica {-}
 
 1. Tomarse un café.
 
@@ -70,14 +71,14 @@ Imaginen despejar realizar este proceso una y otra vez, ¡pero ahora con la ayud
 
 4. Resolver sistema de ecuaciones lineales. 
 
-5. Realizar análisis estadístico.
+5. Realizar análisis estadístico de una gráfica.
 
 6. Calcular integrales definidas. 
 
 
-## Diagrama de flujo. {-}
+## Organizando el proceso mecánico. {-}
 <center>
-![Vamos por un café](diagrama_cafe.jpg){ width=80% }
+![Los invito ha tomar un café](diagrama_cafe.jpg){ width=80% }
 </center>
 
 
@@ -101,57 +102,17 @@ La automatización nos brinda la oportunidad de liberarnos de los procesos repet
 **¡La automatización es como tener un compañero de trabajo virtual que se encarga de las tareas aburridas mientras nosotros desplegamos nuestra imaginación!**
 
 
-## Importancia de los indicadores socioeconómicos {-}
-
-<style>
-.justify {
-  text-align: justify;
-}
-</style>
-
-<div class="justify">
-Los indicadores socioeconómicos desempeñan un papel crucial en la formulación de políticas y en la evaluación del impacto de las intervenciones. Proporcionan información clave sobre la situación económica y social de un país, así como sobre la efectividad de las políticas implementadas.
-</div>
-
+## Workflow Modelo de unidad {-}
 <center>
-![ ](indicadores_socioeconomicos.jpg){ width=40% }
+![Modelo de unidad](Workflow Modelo de unidad_page-0001.jpg){ width=250% }
 </center>
-
-## Relevancia de los Objetivos de Desarrollo Sostenible (ODS) {-}
-
-<center>
-![ ](ods.jpg){ width=50% }
-</center>
-
-<style>
-.justify {
-  text-align: justify;
-}
-</style>
-
-<div class="justify">
-Los ODS establecidos por las Naciones Unidas son una guía global para promover un desarrollo sostenible en todas sus dimensiones. Para monitorear el progreso hacia estos objetivos, es crucial contar con información actualizada, precisa y desagregada a nivel geográfico y demográfico.
-</div>
-
-
-## Automatización de procesos de estimación {-}
-
-<style>
-.justify {
-  text-align: justify;
-}
-</style>
-
-<div class="justify">
-La automatización de procesos de estimación nos brinda la capacidad de generar indicadores socioeconómicos de manera eficiente, permitiendo un seguimiento más efectivo de los ODS y una toma de decisiones informada. Además, nos permite utilizar métodos de estimación de áreas pequeñas, lo que nos brinda información desagregada y focalizada para comprender las necesidades específicas de diferentes regiones y poblaciones.
-</div>
 
 
 ## Pasos para lograr la automatización del proceso. {-}
 
 ### Obtención de Información Auxiliar {-}
 
-- Los Censos nacional. 
+- Los Censos nacionales. 
 
 - Datos satelitales disponibles en la nube.
 
@@ -219,13 +180,6 @@ La automatización de procesos de estimación nos brinda la capacidad de generar
 
 </div>
 
-## Workflow Modelo de unidad {-}
-<center>
-![Modelo de unidad](Workflow Modelo de unidad_page-0001.jpg){ width=250% }
-</center>
-
-
-
 
 ## Ejemplo Argentina:  {-}
 
@@ -255,13 +209,12 @@ La automatización de procesos de estimación nos brinda la capacidad de generar
 <div class="justify">
 - Desagregación de los indicadores socioeconómicos para identificar desafíos específicos en cada área geográfica y poblacional.
 
-<center>
-![ ](contribucion.jpg){ width=20% }
-</center>
-
-
 - Seguimiento preciso y oportuno de los ODS a nivel local y nacional, facilitando la toma de decisiones informadas y la evaluación del progreso.
+
+- Utilización de las estimaciones de indicadores socioeconómicos para evaluar el progreso hacia los ODS.
+- Identificación de áreas y grupos poblacionales que requieren atención específica para lograr un desarrollo sostenible y equitativo.
 </div>
+
 
 ## Implementación exitosa en América Latina {-}
 
@@ -275,6 +228,11 @@ La automatización de procesos de estimación nos brinda la capacidad de generar
 - Aplicación del proceso de automatización en los 17 países de América Latina, utilizando las últimas encuestas de hogares disponibles.
 - Logro de una estimación eficiente y precisa de indicadores clave, como la pobreza, la pobreza extrema y el ingreso medio.
 </div>
+
+<center>
+![ ](contribucion.jpg){ width=20% }
+</center>
+
 
 ## Beneficios de la Automatización {-}
 
@@ -325,18 +283,6 @@ La automatización de procesos de estimación nos brinda la capacidad de generar
 - Uso de niveles de desagregación como área-geográfica-edad, área-geográfica-género, entre otros, para un análisis más completo.
 </div>
 
-## Contribución a los ODS {-}
-
-<style>
-.justify {
-  text-align: justify;
-}
-</style>
-
-<div class="justify">
-- Utilización de las estimaciones de indicadores socioeconómicos para evaluar el progreso hacia los ODS.
-- Identificación de áreas y grupos poblacionales que requieren atención específica para lograr un desarrollo sostenible y equitativo.
-</div>
 
 ## Oportunidades de Implementación {-}
 
@@ -375,4 +321,8 @@ La automatización de procesos de estimación nos brinda la capacidad de generar
 <center>
 ![](gracias.jpg){ width=80% }
 </center>
+
+
+
+
 
